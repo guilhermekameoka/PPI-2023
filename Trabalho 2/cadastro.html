@@ -55,34 +55,37 @@
                     <label for="datanasc">Data de nascimento:</label>
                     <input type="date" id="datanasc" name="datanasc">
                 </div>
-                <div>
-				<fieldset>
-					<legend>Sexo</legend>
-                    <input type="radio" id="masculino" name="sexo" value="masculino">
-                    <label for="masculino">Masculino</label>
 
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <div>
+                        <input type="radio" id="masculino" name="sexo" value="masculino">
+                        <label for="masculino">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="feminino" name="sexo" value="feminino">
+                        <label for="feminino">Feminino</label>
+                    </div>
 
-                    <input type="radio" id="feminino" name="sexo" value="feminino">
-                    <label for="feminino">Feminino</label>
-                </div>
-									</fieldset>
-                <div>
-					<fieldset>
-					<legend>Estado Civil</legend>
-                    <input type="radio" id="solteiro" name="estadocivil" value="solteiro">
-                    <label for="solteiro">Solteiro</label>
-
-                    <input type="radio" id="casado" name="estadocivil" value="casado">
-                    <label for="casado">Casado</label>
-                </div>
-				</fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>Estado Civil</legend>
+                    <div>
+                        <input type="radio" id="solteiro" name="estadocivil" value="solteiro">
+                        <label for="solteiro">Solteiro</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="casado" name="estadocivil" value="casado">
+                        <label for="casado">Casado</label>
+                    </div>
+                </fieldset>
                 <div>
                     <input type="hidden" name="teste" value="funcionou">
                 </div>
 
             </fieldset>
             <fieldset>
-                <br><legend>Endereço</legend>
+                <legend>Endereço</legend>
                 <div>
                     <label for="cep">CEP:</label>
                     <input type="text" id="cep" name="cep" required>
@@ -111,7 +114,7 @@
 
             </fieldset>
             <fieldset>
-                <br><legend>Informações Adicionais</legend>
+                <legend>Informações Adicionais</legend>
                 <div>
                     <input type="checkbox" id="filmes" name="filmes" value="filmes">
                     <label for="filmes">Filmes</label>
@@ -133,7 +136,7 @@
                     <label for="roupas">Roupas</label>
                 </div>
                 <div>
-                    <br><label for="info">Informações Complementares:</label><br>
+                    <label for="info">Informações Complementares:</label>
                     <textarea id="info" name="infocomplementar" rows="5" cols="80">
                     </textarea>
                 </div>
