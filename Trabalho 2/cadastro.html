@@ -22,7 +22,7 @@
         </nav>
     </header>
     <main>
-        <form action="cadastraCliente.php" method="post">
+        <form action="cadastraCliente.php" method="post" enctype="multipart/form-data" >
             <fieldset>
                 <legend>Dados Pessoais</legend>
                 <div>
@@ -137,8 +137,13 @@
                 </div>
                 <div>
                     <label for="info">Informações Complementares:</label>
+                    <br>
                     <textarea id="info" name="infocomplementar" rows="5" cols="80">
                     </textarea>
+                </div>
+                <div>
+                    <label for="doc">Selecione um arquivo:</label>
+                    <input type="file" id="doc">
                 </div>
             </fieldset>
             <button>Enviar</button>
